@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightpink
+   
+   
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    font-size: 4rem;
+    z-index: 2;
+}
+
+.score {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10rem;
+    z-index: 1;
+}
+
+.p-count,
+.c-count {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.p-count {
+    color: yellow;
+}
+
+.c-count {
+    color: red;
+}
+
+
+.options {
+    display: flex;
+    width: 350pt;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+/* Styling on all three buttons */
+.rock,
+.paper,
+.scissor {
+    padding: 1.3rem;
+    width: 100px;
+    background: green;
+    border-color: green;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.move {
+    font-size: 3rem;
+    font: bold;
+}
+
+.movesleft {
+    margin-top: 3rem;
+}
+
+.result {
+    margin-top: 0.5rem;
+}
+
+/* Reload button style */
+.reload {
+    margin-top: 2rem;
+    padding: 10px 50px 20px;
+    background: green;
+    border-radius: 25px;
+    cursor: pointer;
+}
