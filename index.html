@@ -2,45 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-                   initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Rock Paper Scissor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Rock Paper Scissors</title>
+</head>
 
 <body>
-    <section class="game">
-        
-        <div class="title">Rock Paper Scissors</div>
+  <section class="loading-screen">
+    <div class="loader"></div>
+  </section>
 
-        <div class="score">
-            <div class="player">
-                <h2>Player</h2>
-                <p class="p-count count">0</p>
-                <p class="p-choice"></p> 
-            </div>
-            <div class="computer">
-                <h2>Computer</h2>
-                <p class="c-count count">0</p>
-                <p class="c-choice"></p> 
-            </div>
-        </div>
+  <section class="welcome">
+  <div class="title">Rock Paper Scissors</div>
+  <button class="start-btn">Start Game</button>
+</section>
 
-        <div class="move">Make your selection</div>
 
-        <div class="movesleft">Rounds Left: 5 </div>
+  <section class="game">
+    <div class="score">
+      <div class="player">
+        <h2>Player</h2>
+        <p class="p-count count">0</p>
+        <p class="p-choice"></p>
+      </div>
+      <div class="computer">
+        <h2>Computer</h2>
+        <p class="c-count count">0</p>
+        <p class="c-choice"></p>
+      </div>
+    </div>
 
-        <div class="options">
-            <button class="rock">Rock</button>
-            <button class="paper">Paper</button>
-            <button class="scissor">Scissors</button>
-        </div>
+    <div class="move">Make your selection</div>
 
-        <div class="result"></div>
+    <div class="movesleft">Rounds Left: 5</div>
 
-        <button class="reload"></button>
+    <div class="options">
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissor">Scissors</button>
+    </div>
 
-    </section>
-    <script src="script.js"></script>
+    <div class="result"></div>
+
+    <button class="reload">Reset</button>
+  </section>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
